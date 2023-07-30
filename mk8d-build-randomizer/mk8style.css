@@ -1,0 +1,75 @@
+
+
+body {BACKGROUND-COLOR: #212121;
+
+FONT-FAMILY: VERDANA;
+
+}
+
+@font-face {
+  font-family: 'orbitron';
+  src: url(Orbitron.ttf);
+}
+
+@font-face {
+  font-family: 'mk8';
+  src: url(mk8font.ttf);
+}
+
+p{
+  font-family: 'orbitron', verdana;
+}
+marquee{
+  font-family: 'orbitron', verdana;
+  font-size: small;
+  font-weight: bold;
+}
+small{
+  font-family: 'orbitron', verdana;
+}
+
+h1{
+  font-family: 'mk8', verdana;
+}
+h2{
+  font-family: 'mk8', verdana;
+}
+h3{
+  font-family: 'orbitron', verdana;
+}
+h4{
+  font-family: 'orbitron', verdana;
+}
+
+A:LINK {
+
+COLOR: #90baee;
+
+}
+
+A:VISITED {
+
+COLOR: 	#32b1cd;
+
+}
+
+A:HOVER {
+
+COLOR: #90baee;
+
+}
+
+A:ACTIVE {
+
+COLOR: #292929;
+
+}
+html {
+overflow: scroll;
+overflow-x: hidden;
+}
+::-webkit-scrollbar {
+width: 0px; /* remove scrollbar space /
+background: transparent; / optional: just make scrollbar invisible /
+}
+/ optional: show position indicator in red */
