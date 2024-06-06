@@ -45,6 +45,10 @@ characters[42]= "Mii <br><img src='https://mk8dxbuilder.com/img/drivers/Mii (Lig
 characters[43]= "Petey Piranha <br><img src='https://mk8dxbuilder.com/img/drivers/Petey Piranha.png' width='45' height='45'>";
 characters[44]= "Wiggler <br><img src='https://mk8dxbuilder.com/img/drivers/Wiggler.png' width='45' height='45'>";
 characters[45]= "Kamek <br><img src='https://mk8dxbuilder.com/img/drivers/Kamek.png' width='45' height='45'>";
+characters[46]= "Pauline <br><img src='https://mk8dxbuilder.com/img/drivers/Pauline.png' width='45' height='45'>";
+characters[47]= "Funky Kong <br><img src='https://mk8dxbuilder.com/img/drivers/Funky Kong.png' width='45' height='45'>";
+characters[48]= "Diddy Kong <br><img src='https://mk8dxbuilder.com/img/drivers/Diddy Kong.png' width='45' height='45'>";
+characters[49]= "Peachette <br><img src='https://mk8dxbuilder.com/img/drivers/Peachette.png' width='45' height='45'>";
 
 const cars = [];
 cars[0]= "Standard <br><img src='https://mk8dxbuilder.com/img/bodies/Standard Kart.png' width='50' height='32'>";
@@ -160,7 +164,7 @@ zeldas[0]= "Default";
 zeldas[1]= "Champions Tunic";
 
 var selectcar = Math.floor(Math.random() * 41);
-var selectcharacter = Math.floor(Math.random() * 46);
+var selectcharacter = Math.floor(Math.random() * 50);
 var selectwheel = Math.floor(Math.random() * 22);
 var selectglider = Math.floor(Math.random() * 15);
 var selectcolor = Math.floor(Math.random() * 9);
