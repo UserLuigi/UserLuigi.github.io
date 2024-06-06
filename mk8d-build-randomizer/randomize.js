@@ -164,7 +164,7 @@ zeldas[0]= "Default";
 zeldas[1]= "Champions Tunic";
 
 var selectcar = Math.floor(Math.random() * 41);
-var selectcharacter = Math.floor(Math.random() * 50);
+var selectcharacter = 49;
 var selectwheel = Math.floor(Math.random() * 22);
 var selectglider = Math.floor(Math.random() * 15);
 var selectcolor = Math.floor(Math.random() * 9);
