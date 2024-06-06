@@ -188,7 +188,7 @@ var zelda = zeldas[selectzelda];
 
 function Randomize() {
 var selectcar = Math.floor(Math.random() * 41);
-var selectcharacter = Math.floor(Math.random() * 46);
+var selectcharacter = Math.floor(Math.random() * 50);
 var selectwheel = Math.floor(Math.random() * 22);
 var selectglider = Math.floor(Math.random() * 15);
 var selectcolor = Math.floor(Math.random() * 9);
