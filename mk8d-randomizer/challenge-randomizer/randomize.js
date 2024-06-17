@@ -27,15 +27,28 @@ challenges[24]= "Don't use a single item if the Boo is in any item slot";
 challenges[25]= "Use a randomized combo";
 challenges[26]= "Reroll twice (Do both challenges at once)";
 challenges[27]= "Do no challenge for one race";
+challenges[28]= "Use your favorite character";
+challenges[29]= "Use your favorite kart";
+challenges[30]= "Use your favorite wheels";
+challenges[31]= "Use your favorite glider";
+challenges[32]= "Use your favorite combo (Character, kart, wheels and glider)";
+challenges[33]= "Use the heaviest kart combo";
+challenges[34]= "Drift only on the first lap";
+challenges[35]= "Drift only on the second lap";
+challenges[36]= "Drift only on the third lap (Last lap on Baby Park)";
+challenges[37]= "Don't drift on the first lap";
+challenges[38]= "Don't drift on the second lap";
+challenges[39]= "Don't drift on the third lap (Last lap on Baby Park)";
+challenges[40]= "Play as Walter White";
 
-var selectchallenge = Math.floor(Math.random() * 28);
+var selectchallenge = Math.floor(Math.random() * 41);
 
 var challenge = challenges[selectchallenge];
 
 document.getElementById("challenge").innerHTML = challenge;
 
 function Randomize() {
-var selectchallenge = Math.floor(Math.random() * 28);
+var selectchallenge = Math.floor(Math.random() * 41);
 
 var challenge = challenges[selectchallenge];
 
